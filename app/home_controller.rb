@@ -5,9 +5,9 @@ class HomeController < UIViewController
 
   def viewDidLoad
     label = UILabel.alloc.initWithFrame([[15,100], [280,140]])
-    label.text = "Let's try Spark Inspector!"
+    label.text = "Let's try\nSpark Inspector!"
     label.font = UIFont.boldSystemFontOfSize(25)
-    label.textColor = UIColor.greenColor
+    label.textColor = UIColor.redColor
     label.textAlignment = UITextAlignmentCenter
     view.addSubview(label)
   end
